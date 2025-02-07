@@ -1,0 +1,38 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore environment variable files
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore OS or editor-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore compiled files and cache
+dist/
+build/
+*.cache
+*.tsbuildinfo
+
+# Ignore uploads or temporary files
+uploads/
+temp/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore database files (if any)
+*.sqlite
+*.db
+
+# Ignore test reports
+*.test-report.*

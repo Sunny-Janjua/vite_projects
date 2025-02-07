@@ -1,0 +1,69 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+logs/**/*.log
+debug.log
+error.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+dist/
+build/
+
+# Coverage directory for testing tools like Jest
+coverage/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Optional npm cache directory
+.npm/
+
+# Optional yarn cache directory
+.yarn/
+
+# Debugger files
+*.pid
+*.seed
+*.pid.lock
+
+# PM2 logs and runtime files
+pids/
+*.pid
+*.log
+
+# TypeScript build info files (if applicable)
+*.tsbuildinfo
+
+# Miscellaneous
+*.orig
+*.rej
+*.old
